@@ -7,11 +7,11 @@ export const ICSWP = () => {
 				<div className="card-header container border p-4 font-weight-bold">
 					<h4>Payment form example </h4>
 				</div>
-				<br>
-					<div className="container border p-2" role="alert">
-						Some Fields are missing{" "}
-					</div>
-				</br>
+
+				<div className="container border p-2" role="alert">
+					Some Fields are missing{" "}
+				</div>
+
 				<tab>
 					<div className="form-row p-2">
 						<div className="form-group col-md-5">
@@ -25,11 +25,8 @@ export const ICSWP = () => {
 						<div className="form-group col-md-5">
 							<label title="inputPassword4">Amount</label>
 							<div className="input-group mb-3">
-								<label
-									className="input-group-text"
-									title="inputGroupSelect01"
-									style="background: white;">
-									<i className="fas fa-dollar-sign" style="float: left;" />
+								<label className="input-group-text" title="inputGroupSelect01">
+									<i className="fas fa-dollar-sign" />
 								</label>
 								<input
 									type="number"
